@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+#header {
+  background: rgb(2, 0, 110);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.image img {
+  width: 120px;
+}
+.nav-links a {
+  gap: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.search input {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+.search button {
+  width: 50px;
+  height: 27px;
+  border-radius: 20px;
+  border: none;
+  background: yellow;
+  cursor: pointer;
+  font-size: 15px;
+  /* padding: 10px; */
+  margin-left: 10px;
+}
+.logo h1 {
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.ttt {
+  width: 25px;
+  height: 30px;
+  background: rgb(187, 0, 0);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 455px;
+  /* font-size: 20px; */
+}
